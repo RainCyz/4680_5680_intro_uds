@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5095f58e-0723-4e4a-b7dc-e4e951046db1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week7/W7_spatialautocorrelation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week7/week7_solution/W7_ycheng_solution.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/05.02-Introducing-Scikit-Learn copy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/05.09-Principal-Component-Analysis copy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/05.11-K-Means.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/W8_clustering_regionalization_solution.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/Week8_lecture.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/Week8_lecture_wednesday.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week8/~$Week8_lecture_wednesday.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week8/05.09-Principal-Component-Analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week8/05.09-Principal-Component-Analysis_Solution.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/yucheng/Documents/GitHub/4680_5680_intro_uds/Week7/week7_solution",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yucheng/Documents/GitHub/4680_5680_intro_uds/Week7/week7_solution&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week7/week7_solution" />
