@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5095f58e-0723-4e4a-b7dc-e4e951046db1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week12/w12_hyperparameters_modeltuning.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/hw_solution/HW4_Yucheng.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week10/solution/w10_classification_solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/solution/w10_classification_solution.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,9 @@
       <workItem from="1679538202322" duration="5927000" />
       <workItem from="1680115962100" duration="3427000" />
       <workItem from="1681152264986" duration="5665000" />
+      <workItem from="1681312834925" duration="46000" />
+      <workItem from="1681312919426" duration="9312000" />
+      <workItem from="1681683063379" duration="23000" />
     </task>
     <servers />
   </component>
