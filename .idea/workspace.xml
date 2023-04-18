@@ -5,7 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5095f58e-0723-4e4a-b7dc-e4e951046db1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework/hw_solution/HW4_Yucheng.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/18fc52db6eb9c50c0610b4a0cac0a07f6cf46cb9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/2019376a1b67366c14da49bb4f9475d2dda90210.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/21ec4fb66b3cd89dea5ce1edbf2d17272cae9e9c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/2415db1631ecca0cdb5c0f05f06837ddb7b8a91f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/246552ee4e258c746febc557b1eaae21c29436af.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/28b16743e326c8d758ed31a9bb40aa719348f3ec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/2d28b6871fe11cce27855ef459fcad758a747a83.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/301873afff3aa8bd79c07bc2c565197466e11bd0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/37c810cddaf0e47f2c212fafb75faffac83e7537.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/4774c7a7f1cd4cb8e6b8b0419537a5328b1ac99e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/48f95d90624b34e06b9a1342975cdd1ae0a00d53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/4e5011a0169aa2cae8159d880af897d013dad26f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/5229d75635a9e0867c76e562f566ca314d14e471.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/53a0e4a0e1f828cdbd838dbca852e2c0480e4900.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/66783c3b20ae0709ba8ab99a8e4971ef0a081393.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/6808f73e6f2a4589b235295dd62d6da7cdfce3a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/6c153fa341a1311190ead092285e3b3ece962ccd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/7352e837b88fd385fd85cdcc63250582131aa7d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/7550fc4d699ff07a64e5efbe493ccad3d96b5d90.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/76f0d75d1b40da0f8cca3b4d3661b19d4d15a438.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/86cce59161c7854a10aae653be20a8f9ab340618.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/8ccc14fdc6c569bcff6b9e3aa792e3ac9ad68cd1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/9669f580f07a92b8ea0e08224c9a8ca1a724572f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/9a0ce4579779497d4043cc2faaa1f088cf2464ff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/a53ee70750418cb327ca4b0f439fb108dfa3aa9a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/ac1356481194e22fef78a499f5780c3ea4659489.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/c39db8103ec611cf3299cd33530c38442e0965a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/d65488021e1fd2c59250fe02aca13b63c2c7caa6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/e3b10216244b096cdfd5069b6ddf65571a805fbe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/eab1ac7de845c994e6faddbcf6712cef62423b81.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/ed8bd5a203bf94acc9be50d2541c5fdc314a1386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/cache/fe70b93ebcfd3b73e6af181dd1ff9583133c2950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/data/mynetwork.gpkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/data/mynetwork.graphml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/w13_networks.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +105,7 @@
       <workItem from="1681312834925" duration="46000" />
       <workItem from="1681312919426" duration="9312000" />
       <workItem from="1681683063379" duration="23000" />
+      <workItem from="1681757282186" duration="5147000" />
     </task>
     <servers />
   </component>
