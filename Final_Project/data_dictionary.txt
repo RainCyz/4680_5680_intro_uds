@@ -1,0 +1,2205 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13362589
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2020 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2020 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Age
+         Universe:  Total Population
+         Name:      A01001
+         Variables:
+            A01001_001:   Total Population:
+            A01001_002:      Under 5 Years
+            A01001_003:      5 to 9 Years
+            A01001_004:      10 to 14 Years
+            A01001_005:      15 to 17 Years
+            A01001_006:      18 to 24 Years
+            A01001_007:      25 to 34 Years
+            A01001_008:      35 to 44 Years
+            A01001_009:      45 to 54 Years
+            A01001_010:      55 to 64 Years
+            A01001_011:      65 to 74 Years
+            A01001_012:      75 to 84 Years
+            A01001_013:      85 Years and Over
+
+
+      4. Age for Male Population (Short Version)
+         Universe:  Male Population
+         Name:      A01002B
+         Variables:
+            A01002B_001:   Male Population:
+            A01002B_002:      Under 18 Years
+            A01002B_003:      18 to 34 Years
+            A01002B_004:      35 to 64 Years
+            A01002B_005:      65 and Over
+
+
+      5. Age for Female Population (Short Version)
+         Universe:  Female Population
+         Name:      A01002A
+         Variables:
+            A01002A_001:   Female Population:
+            A01002A_002:      Under 18 Years
+            A01002A_003:      18 to 34 Years
+            A01002A_004:      35 to 64 Years
+            A01002A_005:      65 and Over
+
+
+      6. Median Age by Sex
+         Universe:  Total Population
+         Name:      A01004
+         Variables:
+            A01004_001:   Median Age:
+            A01004_002:      Male Population
+            A01004_003:      Female Population
+
+
+      7. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      8. Hispanic or Latino by Race
+         Universe:  Total Population
+         Name:      A04001
+         Variables:
+            A04001_001:   Total Population
+            A04001_002:      Not Hispanic or Latino:
+            A04001_003:         White Alone
+            A04001_004:         Black or African American Alone
+            A04001_005:         American Indian and Alaska Native Alone
+            A04001_006:         Asian Alone
+            A04001_007:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_008:         Some Other Race Alone
+            A04001_009:         Two or More Races
+            A04001_010:      Hispanic or Latino:
+            A04001_011:         White Alone
+            A04001_012:         Black or African American Alone
+            A04001_013:         American Indian and Alaska Native Alone
+            A04001_014:         Asian Alone
+            A04001_015:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_016:         Some Other Race Alone
+            A04001_017:         Two or More Races
+
+
+      9. Hispanic or Latino by Specific Origin
+         Universe:  Total population
+         Name:      A04002
+         Variables:
+            A04002_001:   Total Population
+            A04002_002:      Not Hispanic or Latino
+            A04002_003:      Hispanic or Latino:
+            A04002_004:         Mexican
+            A04002_005:         Puerto Rican
+            A04002_006:         Cuban
+            A04002_007:         Dominican Republic
+            A04002_008:         Central American:
+            A04002_009:            Costa Rican
+            A04002_010:            Guatemalan
+            A04002_011:            Honduran
+            A04002_012:            Nicaraguan
+            A04002_013:            Panamanian
+            A04002_014:            Salvadoran
+            A04002_015:            Other Central American
+            A04002_016:         South American:
+            A04002_017:            Argentinean
+            A04002_018:            Bolivian
+            A04002_019:            Chilean
+            A04002_020:            Colombian
+            A04002_021:            Ecuadorian
+            A04002_022:            Paraguayan
+            A04002_023:            Peruvian
+            A04002_024:            Uruguayan
+            A04002_025:            Venezuelan
+            A04002_026:            Other South American
+            A04002_027:         Other Hispanic or Latino:
+            A04002_028:            Spaniard
+            A04002_029:            Spanish
+            A04002_030:            Spanish American
+            A04002_031:            All Other Hispanic or Latino
+
+
+      10. Asian by Specific OrigIn (Asian with One Asian Category for Selected Groups)
+          Universe:  Total Asian categories tallied for people with one Asian category only and people with no specific Asian category reported
+          Name:      A03002
+          Variables:
+             A03002_001:   Total:
+             A03002_002:      Asian Indian
+             A03002_003:      Bangladeshi
+             A03002_020:      Bhutanese
+             A03002_021:      Burmese
+             A03002_004:      Cambodian
+             A03002_005:      Chinese, Except Taiwanese
+             A03002_006:      Filipino
+             A03002_007:      Hmong
+             A03002_008:      Indonesian
+             A03002_009:      Japanese
+             A03002_010:      Korean
+             A03002_011:      Laotian
+             A03002_012:      Malaysian
+             A03002_022:      Mongolian
+             A03002_023:      Nepalese
+             A03002_024:      Okinawan
+             A03002_013:      Pakistani
+             A03002_014:      Sri Lankan
+             A03002_015:      Taiwanese
+             A03002_016:      Thai
+             A03002_017:      Vietnamese
+             A03002_018:      Other Asian, Specified
+             A03002_019:      Other Asian, Not Specified
+             A03002_025:      Two or More Asian
+
+
+      11. Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14001
+          Variables:
+             A14001_001:   Households:
+             A14001_002:      Less than $10,000
+             A14001_003:      $10,000 to $14,999
+             A14001_004:      $15,000 to $19,999
+             A14001_005:      $20,000 to $24,999
+             A14001_006:      $25,000 to $29,999
+             A14001_007:      $30,000 to $34,999
+             A14001_008:      $35,000 to $39,999
+             A14001_009:      $40,000 to $44,999
+             A14001_010:      $45,000 to $49,999
+             A14001_011:      $50,000 to $59,999
+             A14001_012:      $60,000 to $74,999
+             A14001_013:      $75,000 to $99,999
+             A14001_014:      $100,000 to $124,999
+             A14001_015:      $125,000 to $149,999
+             A14001_016:      $150,000 to $199,999
+             A14001_017:      $200,000 or More
+
+
+      12. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14006
+          Variables:
+             A14006_001:   Median Household Income (In 2020 Inflation Adjusted Dollars)
+
+
+      13. Median Household Income by Race (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14007
+          Variables:
+             A14007_001:   Median Household Income (In 2020 Inflation Adjusted Dollars):
+             A14007_002:      White Alone Householder
+             A14007_003:      Black or African American Alone Householder
+             A14007_004:      American Indian and Alaska Native Alone  Householder
+             A14007_005:      Asian Alone
+             A14007_006:      Native Hawaiian and Other Pacific Islander Alone  Householder
+             A14007_007:      Some Other Race Alone Householder
+             A14007_008:      Two or More Races Householder
+             A14007_009:      Hispanic or Latino Householder
+             A14007_010:      White Alone Householder, Not Hispanic or Latino
+
+
+      14. Average Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14008
+          Variables:
+             A14008_001:   Average Household Income (In 2020 Inflation Adjusted Dollars)
+
+
+      15. Median Family Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Families
+          Name:      A14010
+          Variables:
+             A14010_001:   Median Family Income (In 2020 Inflation Adjusted Dollars)
+
+
+      16. Average Family Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Families
+          Name:      A14011
+          Variables:
+             A14011_001:   Average Family Income (In 2020 Inflation Adjusted Dollars)
+
+
+      17. Median Nonfamily Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Nonfamily Households
+          Name:      A14012
+          Variables:
+             A14012_001:   Median Nonfamily Household Income (In 2020 Inflation Adjusted Dollars)
+
+
+      18. Average Nonfamily Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Nonfamily Households
+          Name:      A14013
+          Variables:
+             A14013_001:   Average Nonfamily Income (In 2020 Inflation Adjusted Dollars)
+
+
+      19. Median Income by Sex by Work Experience (In <DollarYear> Inflation Adjusted Dollars) (For Population Age 15+)
+          Universe:  Population 15 years and Over with income in the past 12 months
+          Name:      A14014
+          Variables:
+             A14014_001:   Median Income for Population 15 Years and Over:
+             A14014_002:      Male:
+             A14014_003:         Worked Full-Time, Year-Round in the Past 12 Months
+             A14014_004:         Other
+             A14014_005:      Female:
+             A14014_006:         Worked Full-Time, Year-Round in the Past 12 Months
+             A14014_007:         Other
+
+
+      20. Median Earnings by Sex by Educational Attainment (In <DollarYear> Inflation Adjusted Dollars) (For Population Age 25+)
+          Universe:  Population 25 years and Over with earnings
+          Name:      A15001
+          Variables:
+             A15001_001:   Median Earnings:
+             A15001_002:      Less than High School Graduate
+             A15001_003:      High School Graduate (Includes Equivalency)
+             A15001_004:      Some College or Associate's Degree
+             A15001_005:      Bachelor's Degree
+             A15001_006:      Graduate or Professional Degree
+             A15001_007:      Male:
+             A15001_008:         Less than High School Graduate
+             A15001_009:         High School Graduate (Includes Equivalency)
+             A15001_010:         Some College or Associate's Degree
+             A15001_011:         Bachelor's Degree
+             A15001_012:         Graduate or Professional Degree
+             A15001_013:      Female:
+             A15001_014:         Less than High School Graduate
+             A15001_015:         High School Graduate (Includes Equivalency)
+             A15001_016:         Some College or Associate's Degree
+             A15001_017:         Bachelor's Degree
+             A15001_018:         Graduate or Professional Degree
+
+
+      21. Median Household Income by Tenure (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Occupied housing units
+          Name:      A14015
+          Variables:
+             A14015_001:   Median Household Income Occupied Housing Units:
+             A14015_002:      Owner Occupied
+             A14015_003:      Renter Occupied
+
+
+      22. Households with Earnings
+          Universe:  Households
+          Name:      A10011
+          Variables:
+             A10011_001:   Households:
+             A10011_002:      With Earnings
+             A10011_003:      No Earnings
+
+
+      23. Households with Wage or Salary Income
+          Universe:  Households
+          Name:      A10019
+          Variables:
+             A10019_001:   Households:
+             A10019_002:      With Wage or Salary Income
+             A10019_003:      No Wage or Salary Income
+
+
+      24. Households with Self-Employment Income
+          Universe:  Households
+          Name:      A10016
+          Variables:
+             A10016_001:   Households:
+             A10016_002:      With Self-Employment Income
+             A10016_003:      No Self-Employment Income
+
+
+      25. Households with Interest, Dividends, or Net Rental Income
+          Universe:  Households
+          Name:      A10012
+          Variables:
+             A10012_001:   Households:
+             A10012_002:      With Interest, Dividends, or Net Rental Income
+             A10012_003:      No Interest, Dividends, or Net Rental Income
+
+
+      26. Households with Social Security Income
+          Universe:  Households
+          Name:      A10017
+          Variables:
+             A10017_001:   Households:
+             A10017_002:      With Social Security Income
+             A10017_003:      No Social Security Income
+
+
+      27. Households with Supplemental Security Income (Ssi)
+          Universe:  Households
+          Name:      A10018
+          Variables:
+             A10018_001:   Households:
+             A10018_002:      With Supplemental Security Income (Ssi)
+             A10018_003:      No Supplemental Security Income (Ssi)
+
+
+      28. Households with Public Assistance Income
+          Universe:  Households
+          Name:      A10014
+          Variables:
+             A10014_001:   Households:
+             A10014_002:      With Public Assistance Income
+             A10014_003:      No Public Assistance Income
+
+
+      29. Households with Retirement Income
+          Universe:  Households
+          Name:      A10015
+          Variables:
+             A10015_001:   Households:
+             A10015_002:      With Retirement Income
+             A10015_003:      No Retirement Income
+
+
+      30. Households with Other Types of Income
+          Universe:  Households
+          Name:      A10013
+          Variables:
+             A10013_001:   Households:
+             A10013_002:      With Other Types of Income
+             A10013_003:      No Other Types of Income
+
+
+      31. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Total Population
+          Name:      A14024
+          Variables:
+             A14024_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      32. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (White Alone)
+          Universe:  White Alone Population
+          Name:      A14024A
+          Variables:
+             A14024A_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      33. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Black or African American Alone)
+          Universe:  Black or African American Alone Population
+          Name:      A14024B
+          Variables:
+             A14024B_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      34. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (American Indian and Alaska Native Alone)
+          Universe:  American Indian and Alaska Native Alone Population
+          Name:      A14024C
+          Variables:
+             A14024C_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      35. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Asian Alone)
+          Universe:  Asian Alone Population
+          Name:      A14024D
+          Variables:
+             A14024D_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      36. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Native Hawaiian and Other Pacific Islander Alone)
+          Universe:  Native Hawaiian and Other Pacific Islander Alone Population
+          Name:      A14024E
+          Variables:
+             A14024E_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      37. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Some Other Race Alone)
+          Universe:  Some Other Race Alone Population
+          Name:      A14024F
+          Variables:
+             A14024F_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      38. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Two or More Races)
+          Universe:  Two or More Races Population
+          Name:      A14024G
+          Variables:
+             A14024G_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      39. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (Hispanic or Latino)
+          Universe:  Hispanic or Latino Population
+          Name:      A14024H
+          Variables:
+             A14024H_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      40. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars) (White Alone, Not Hispanic or Latino)
+          Universe:  White Alone, not Hispanic or Latino Population
+          Name:      A14024I
+          Variables:
+             A14024I_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      41. Sex
+          Universe:  Total Population
+          Name:      A02001
+          Variables:
+             A02001_001:   Total Population:
+             A02001_002:      Male
+             A02001_003:      Female
+
+
+      42. Households by Household Type
+          Universe:  Households
+          Name:      A10008
+          Variables:
+             A10008_001:   Households:
+             A10008_002:      Family Households:
+             A10008_003:         Married-Couple Family
+             A10008_004:         Other Family:
+             A10008_005:            Male Householder, No Wife Present
+             A10008_006:            Female Householder, No Husband Present
+             A10008_007:      Nonfamily Households:
+             A10008_008:         Male Householder
+             A10008_009:         Female Householder
+
+
+      43. Housing Units
+          Universe:  Housing units
+          Name:      A10001
+          Variables:
+             A10001_001:   Housing Units
+
+
+      44. Tenure
+          Universe:  Occupied Housing Units
+          Name:      A10060
+          Variables:
+             A10060_001:   Occupied Housing Units:
+             A10060_002:      Owner Occupied
+             A10060_003:      Renter Occupied
+
+
+      45. Ratio of Income in 2020 to Poverty Level (Summarized - top-coded at 2.00)
+          Universe:  Population for whom poverty status Is determined
+          Name:      B13004
+          Variables:
+             B13004_001:   Population for Whom Poverty Status Is Determined:
+             B13004_002:      Under 1.00 (Doing Poorly)
+             B13004_003:      1.00 to 1.99 (Struggling)
+             B13004_004:      Under 2.00 (Poor or Struggling)
+             B13004_005:      2.00 and Over (Doing Ok)
+
+
+      46. Poverty Status in of Families by Family Type by Presence of Children Under 18 Years
+          Universe:  Families
+          Name:      A13002
+          Variables:
+             A13002_001:   Families:
+             A13002_002:      Income Below Poverty Level:
+             A13002_003:         Married Couple Family: with Related Child Living  Below Poverty Level
+             A13002_004:         Married Couple Family: No Related Children Under 18 Years
+             A13002_005:         Male Householder, No Wife Present:
+             A13002_006:            With Related Children Under 18 Years
+             A13002_007:            No Related Children Under 18 Years
+             A13002_008:         Female Householder, No Husband Present:
+             A13002_009:            With Related Children Under 18 Years
+             A13002_010:            No Related Children Under 18 Years
+             A13002_011:      Income At or Above Poverty Level
+
+
+      47. Poverty Status in 2020 for Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+          Name:      A13003A
+          Variables:
+             A13003A_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+             A13003A_002:      Living in Poverty
+             A13003A_003:      At or Above Poverty Level
+
+
+      48. Poverty Status in 2020 for Population Age 18 to 64
+          Universe:  Population Age 18 to 64 for whom poverty status Is determined
+          Name:      A13003B
+          Variables:
+             A13003B_001:   Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+             A13003B_002:      Living in Poverty
+             A13003B_003:      At or Above Poverty Level
+
+
+      49. Poverty Status in 2020 for Population Age 65 and Over
+          Universe:  Population Age 65 and Over for whom poverty status Is determined
+          Name:      A13003C
+          Variables:
+             A13003C_001:   Population Age 65 and Over for Whom Poverty  Status Is Determined:
+             A13003C_002:      Living in Poverty
+             A13003C_003:      At or Above Poverty Level
+
+
+      50. Ratio of Income in 2020 to Poverty Level
+          Universe:  Population for whom poverty status Is determined
+          Name:      A13004
+          Variables:
+             A13004_001:   Population for Whom Poverty Status Is Determined:
+             A13004_002:      Under .50
+             A13004_003:      .50 to .74
+             A13004_004:      .75 to .99
+             A13004_005:      1.00 to 1.49
+             A13004_006:      1.50 to 1.99
+             A13004_007:      2.00 and Over
+
+
+      51. Poverty Status in the Past 12 Months (White Alone)
+          Universe:  White Alone Population for whom poverty status Is determined
+          Name:      A13001A
+          Variables:
+             A13001A_001:   White Alone Population for Whom Poverty Status Is  Determined:
+             A13001A_002:      Income Below Poverty Level
+             A13001A_003:      Income At or Above Poverty Level
+
+
+      52. Poverty Status in the Past 12 Months (Black or African American Alone)
+          Universe:  Black or African American Alone Population for whom poverty status Is determined
+          Name:      A13001B
+          Variables:
+             A13001B_001:   Black or African American Alone Population for  Whom Poverty Status Is Determined:
+             A13001B_002:      Income Below Poverty Level
+             A13001B_003:      Income At or Above Poverty Level
+
+
+      53. Poverty Status in the Past 12 Months (American Indian and Alaska Native Alone)
+          Universe:  American Indian and Alaska Native Alone Population for whom poverty status Is determined
+          Name:      A13001C
+          Variables:
+             A13001C_001:   American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+             A13001C_002:      Income Below Poverty Level
+             A13001C_003:      Income At or Above Poverty Level
+
+
+      54. Poverty Status in the Past 12 Months (Asian Alone)
+          Universe:  Asian Alone Population for whom poverty status Is determined
+          Name:      A13001D
+          Variables:
+             A13001D_001:   Asian Alone Population for Whom Poverty Status Is  Determined:
+             A13001D_002:      Income Below Poverty Level
+             A13001D_003:      Income At or Above Poverty Level
+
+
+      55. Poverty Status in the Past 12 Months (Native Hawaiian and Other Pacific Islander Alone)
+          Universe:  Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status Is determined
+          Name:      A13001E
+          Variables:
+             A13001E_001:   Native Hawaiian and Other Pacific Islander Alone  Population for Whom Poverty Status Is Determined:
+             A13001E_002:      Income Below Poverty Level
+             A13001E_003:      Income At or Above Poverty Level
+
+
+      56. Poverty Status in the Past 12 Months (Some Other Race Alone)
+          Universe:  Some Other Race Alone Population for whom poverty status Is determined
+          Name:      A13001F
+          Variables:
+             A13001F_001:   Some Other Race Alone Population for Whom Poverty  Status Is Determined:
+             A13001F_002:      Income Below Poverty Level
+             A13001F_003:      Income At or Above Poverty Level
+
+
+      57. Poverty Status in the Past 12 Months (Two or More Races)
+          Universe:  Two or More races Population for whom poverty status Is determined
+          Name:      A13001G
+          Variables:
+             A13001G_001:   Two or More Races Population for Whom Poverty  Status Is Determined:
+             A13001G_002:      Income Below Poverty Level
+             A13001G_003:      Income At or Above Poverty Level
+
+
+      58. Poverty Status in the Past 12 Months (Hispanic or Latino)
+          Universe:  Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001H
+          Variables:
+             A13001H_001:   Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+             A13001H_002:      Income Below Poverty Level
+             A13001H_003:      Income At or Above Poverty Level
+
+
+      59. Poverty Status in the Past 12 Months (White Alone, Not Hispanic or Latino)
+          Universe:  White Alone, not Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001I
+          Variables:
+             A13001I_001:   White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+             A13001I_002:      Income Below Poverty Level
+             A13001I_003:      Income At or Above Poverty Level
+
+
+      60. Educational Attainment for Population 25 Years and Over
+          Universe:  Population 25 Years and Over
+          Name:      A12001
+          Variables:
+             A12001_001:   Population 25 Years and Over:
+             A12001_002:      Less than High School
+             A12001_003:      High School Graduate (Includes Equivalency)
+             A12001_004:      Some College
+             A12001_005:      Bachelor's Degree
+             A12001_006:      Master's Degree
+             A12001_007:      Professional School Degree
+             A12001_008:      Doctorate Degree
+
+
+      61. Highest Educational Attainment for Population 25 Years and Over
+          Universe:  Population 25 Years and Over
+          Name:      A12002
+          Variables:
+             A12002_001:   Population 25 Years and Over:
+             A12002_002:      Less than High School
+             A12002_003:      High School Graduate or More (Includes Equivalency)
+             A12002_004:      Some College or More
+             A12002_005:      Bachelor's Degree or More
+             A12002_006:      Master's Degree or More
+             A12002_007:      Professional School Degree or More
+             A12002_008:      Doctorate Degree
+
+
+      62. Educational Attainment for Male Population 25 Years and Over
+          Universe:  Male Population 25 Years and Over
+          Name:      A12001A
+          Variables:
+             A12001A_001:   Male Population 25 Years and Over:
+             A12001A_002:      Less than High School
+             A12001A_003:      High School Graduate (Includes Equivalency)
+             A12001A_004:      Some College
+             A12001A_005:      Bachelor's Degree
+             A12001A_006:      Master's Degree
+             A12001A_007:      Professional School Degree
+             A12001A_008:      Doctorate Degree
+
+
+      63. Highest Educational Attainment for Male Population 25 Years and Over
+          Universe:  Male Population 25 Years and Over
+          Name:      A12002A
+          Variables:
+             A12002A_001:   Male Population 25 Years and Over:
+             A12002A_002:      Less than High School
+             A12002A_003:      High School Graduate or More (Includes Equivalency)
+             A12002A_004:      Some College or More
+             A12002A_005:      Bachelor's Degree or More
+             A12002A_006:      Master's Degree or More
+             A12002A_007:      Professional School Degree or More
+             A12002A_008:      Doctorate Degree
+
+
+      64. Educational Attainment for Female Population 25 Years and Over
+          Universe:  Female Population 25 Years and Over
+          Name:      A12001B
+          Variables:
+             A12001B_001:   Female Population 25 Years and Over:
+             A12001B_002:      Less than High School
+             A12001B_003:      High School Graduate (Includes Equivalency)
+             A12001B_004:      Some College
+             A12001B_005:      Bachelor's Degree
+             A12001B_006:      Master's Degree
+             A12001B_007:      Professional School Degree
+             A12001B_008:      Doctorate Degree
+
+
+      65. Highest Educational Attainment for Female Population 25 Years and Over
+          Universe:  Female Population 25 Years and Over
+          Name:      A12002B
+          Variables:
+             A12002B_001:   Female Population 25 Years and Over:
+             A12002B_002:      Less than High School
+             A12002B_003:      High School Graduate or More (Includes Equivalency)
+             A12002B_004:      Some College or More
+             A12002B_005:      Bachelor's Degree or More
+             A12002B_006:      Master's Degree or More
+             A12002B_007:      Professional School Degree or More
+             A12002B_008:      Doctorate Degree
+
+
+      66. School Dropout Rate for Population 16 to 19 Years
+          Universe:  Civilian Population 16 to 19 Years
+          Name:      A12003
+          Variables:
+             A12003_001:   Civilian Population 16 to 19 Years:
+             A12003_002:      Not High School Graduate, Not Enrolled (Dropped Out)
+             A12003_003:      High School Graduate, or Enrolled (In School)
+
+
+      67. School Dropout Rate for Male Population 16 to 19 Years
+          Universe:  Male Civilian Population 16 to 19 Years
+          Name:      A12003A
+          Variables:
+             A12003A_001:   Male Civilian Population 16 to 19 Years:
+             A12003A_002:      Not High School Graduate, Not Enrolled (Dropped Out)
+             A12003A_003:      High School Graduate, or Enrolled (In School)
+
+
+      68. School Dropout Rate for Female Population 16 to 19 Years
+          Universe:  Female Civilian Population 16 to 19 Years
+          Name:      A12003B
+          Variables:
+             A12003B_001:   Female Civilian Population 16 to 19 Years:
+             A12003B_002:      Not High School Graduate, Not Enrolled (Dropped Out)
+             A12003B_003:      High School Graduate, or Enrolled (In School)
+
+
+      69. Occupancy Status
+          Universe:  Housing units
+          Name:      A10044
+          Variables:
+             A10044_001:   Housing Units:
+             A10044_002:      Occupied
+             A10044_003:      Vacant
+
+
+      70. Vacancy Status by Type of Vacancy
+          Universe:  Vacant housing units
+          Name:      A10047
+          Variables:
+             A10047_001:   Vacant Housing Units:
+             A10047_002:      For Rent
+             A10047_003:      For Sale Only
+             A10047_004:      Other Vacant
+
+
+      71. Housing Units in Structure
+          Universe:  Housing Units
+          Name:      A10032
+          Variables:
+             A10032_001:   Housing Units:
+             A10032_002:      1 Unit:
+             A10032_003:         1, Detached
+             A10032_004:         1, Attached
+             A10032_005:      2
+             A10032_006:      3 or 4
+             A10032_007:      5 to 9
+             A10032_008:      10 to 19
+             A10032_009:      20 to 49
+             A10032_010:      50 or More
+             A10032_011:      Mobile Home
+             A10032_012:      Boat, Rv, Van, Etc.
+
+
+      72. Median Year Structure Built
+          Universe:  Housing units
+          Name:      A10057
+          Variables:
+             A10057_001:   Median Year Structure Built
+
+
+      73. House Heating Fuel
+          Universe:  Occupied Housing Units
+          Name:      A10034
+          Variables:
+             A10034_001:   Occupied Housing Units:
+             A10034_002:      Gas (Utility, Bottled, Tank, or Lp Gas)
+             A10034_003:      Electricity
+             A10034_004:      Fuel Oil, Kerosene, Etc.
+             A10034_005:      Coal, Coke or Wood
+             A10034_006:      Solar Energy
+             A10034_007:      Other Fuel
+             A10034_008:      No Fuel Used
+
+
+      74. House Value for All Owner-Occupied Housing Units
+          Universe:  Owner-occupied housing units
+          Name:      A10035
+          Variables:
+             A10035_001:   Owner-Occupied Housing Units:
+             A10035_002:      Less than $20,000
+             A10035_003:      $20,000 to $49,999
+             A10035_004:      $50,000 to $99,999
+             A10035_005:      $100,000 to $149,999
+             A10035_006:      $150,000 to $299,999
+             A10035_007:      $300,000 to $499,999
+             A10035_008:      $500,000 to $749,999
+             A10035_009:      $750,000 to $999,999
+             A10035_010:      $1,000,000 or More
+
+
+      75. Median House Value for All Owner-Occupied Housing Units
+          Universe:  Owner-occupied housing units
+          Name:      A10036
+          Variables:
+             A10036_001:   Median Value
+
+
+      76. Gross Rent (Housing Units with Cash Rent)
+          Universe:  Renter-occupied housing units with cash rent
+          Name:      A18001
+          Variables:
+             A18001_001:   Renter-Occupied Housing Units with Cash Rent:
+             A18001_002:      Less than $300
+             A18001_003:      $300 to $599
+             A18001_004:      $600 to $799
+             A18001_005:      $800 to $999
+             A18001_006:      $1,000 to $1,249
+             A18001_007:      $1,250 to $1,499
+             A18001_008:      $1,500 to $1,999
+             A18001_009:      $2,000 or More
+
+
+      77. Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+          Universe:  Renter-occupied housing units
+          Name:      A18002
+          Variables:
+             A18002_001:   Renter-Occupied Housing Units:
+             A18002_002:      Less than 10 Percent
+             A18002_003:      10 to 29 Percent
+             A18002_004:      30 to 49 Percent
+             A18002_005:      50 Percent or More
+             A18002_006:      Not Computed
+
+
+      78. Median Gross Rent
+          Universe:  Renter-occupied housing units paying cash rent
+          Name:      A18009
+          Variables:
+             A18009_001:   Median Gross Rent
+
+
+      79. Median Gross Rent as a Percentage of Household Income in the Past 12 Months (Dollars)
+          Universe:  Renter-occupied housing units paying cash rent
+          Name:      A18003
+          Variables:
+             A18003_001:   Median Gross Rent as a Percentage of Household  Income in the Past 12 Months (Dollars)
+
+
+      80. Average Gross Rent
+          Universe:  Renter-occupied housing units
+          Name:      A18005
+          Variables:
+             A18005_001:   Average Gross Rent for Renter-Occupied Housing Units
+
+
+      81. Mortgage Status
+          Universe:  Owner-occupied housing units
+          Name:      A10041
+          Variables:
+             A10041_001:   Owner-Occupied Housing Units:
+             A10041_002:      Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts:
+             A10041_003:         With Either a Second Mortgage or Home Equity  Loan, but Not Both:
+             A10041_004:            Second Mortgage Only
+             A10041_005:            Home Equity Loan Only
+             A10041_006:         Both Second Mortgage and Home Equity Loan
+             A10041_007:         No Second Mortgage and No Home Equity Loan
+             A10041_008:      Housing Units Without a Mortgage
+
+
+      82. Mortgage Status by Selected  of  Household Income in the Past 12 Months (Dollars)
+          Universe:  Owner-occupied housing units
+          Name:      A10040
+          Variables:
+             A10040_001:   Owner-Occupied Housing Units:
+             A10040_002:      Housing Units with a Mortgage:
+             A10040_003:         Less than 30 Percent
+             A10040_004:         30 Percent or More
+             A10040_005:         50 Percent or More
+             A10040_006:         Not Computed
+             A10040_007:      Housing Units Without a Mortgage:
+             A10040_008:         Less than 30 Percent
+             A10040_009:         30 Percent or More
+             A10040_010:         50 Percent or More
+             A10040_011:         Not Computed
+
+
+      83. Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months (Dollars) for Housing Units with a Mortgage
+          Universe:  Housing units with a mortgage
+          Name:      A10049
+          Variables:
+             A10049_001:   Housing Units with a Mortgage:
+             A10049_002:      Less than 30 Percent
+             A10049_003:      30 Percent or More
+             A10049_004:      50 Percent or More
+             A10049_005:      Not Computed
+
+
+      84. Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months (Dollars) for Housing Units Without a Mortgage
+          Universe:  Housing units Without a mortgage
+          Name:      A10051
+          Variables:
+             A10051_001:   Housing Units Without a Mortgage:
+             A10051_002:      Less than 30 Percent
+             A10051_003:      30 Percent or More
+             A10051_004:      50 Percent or More
+             A10051_005:      Not Computed
+
+
+      85. Median Selected Monthly Owner Costs as a Percentage of Household Income in the Past 12 Months (Dollars) and Mortgage Status
+          Universe:  Owner-occupied housing units
+          Name:      A10037
+          Variables:
+             A10037_001:   Median Selected Monthly Owner Costs as a Percentage of Household Income:
+             A10037_002:      Housing Units with a Mortgage
+             A10037_003:      Housing Units Without a Mortgage
+
+
+      86. Housing Units by Household Type (Including Living Alone) and Age of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10025
+          Variables:
+             A10025_001:   Occupied Housing Units:
+             A10025_002:      Family Households
+             A10025_003:         Married-Couple Family
+             A10025_004:            Householder 15 to 34 Years
+             A10025_005:            Householder 35 to 64 Years
+             A10025_006:            Householder 65 Years and Over
+             A10025_007:         Other Family
+             A10025_008:            Male Householder, No Wife Present
+             A10025_009:               Householder 15 to 34 Years
+             A10025_010:               Householder 35 to 64 Years
+             A10025_011:               Householder 65 Years and Over
+             A10025_012:            Female Householder, No Husband Present
+             A10025_013:               Householder 15 to 34 Years
+             A10025_014:               Householder 35 to 64 Years
+             A10025_015:               Householder 65 Years and Over
+             A10025_016:      Nonfamily Households
+             A10025_017:         Householder Living Alone
+             A10025_018:            Householder 15 to 34 Years
+             A10025_019:            Householder 35 to 64 Years
+             A10025_020:            Householder 65 Years and Over
+             A10025_021:         Householder Not Living Alone
+             A10025_022:            Householder 15 to 34 Years
+             A10025_023:            Householder 35 to 64 Years
+             A10025_024:            Householder 65 Years and Over
+
+
+      87. Housing Units by Household Size
+          Universe:  Universe:  Occupied housing units
+          Name:      A10024
+          Variables:
+             A10024_001:   Occupied Housing Units:
+             A10024_002:      1-Person Household
+             A10024_003:      2-Person Household
+             A10024_004:      3-Person Household
+             A10024_005:      4-Person Household
+             A10024_006:      5-Person Household
+             A10024_007:      6-Person Household
+             A10024_008:      7-or-More Person Household
+
+
+      88. Housing Units by Families and Presence of Own Children
+          Universe:  Universe:  Occupied housing units
+          Name:      A10022
+          Variables:
+             A10022_001:   Occupied Housing Units:
+             A10022_002:      With Related Children of the Householder Under 18:
+             A10022_003:         With Own Children of the Householder Under 18:
+             A10022_004:            Under 6 Years Only
+             A10022_005:            Under 6 Years and 6 to 17 Years
+             A10022_006:            6 to 17 Years
+             A10022_007:         No Own Children of the Householder Under 18
+             A10022_008:      No Related Children of the Householder Under 18
+
+
+      89. Households by Race of Householder
+          Universe:  Households
+          Name:      A10010
+          Variables:
+             A10010_001:   Households:
+             A10010_002:      With a Householder Who Is White Alone
+             A10010_003:      With a Householder Who Is Black or African  American Alone
+             A10010_004:      With a Householder Who Is American Indian and  Alaska Native Alone
+             A10010_005:      With a Householder Who Is Asian Alone
+             A10010_006:      With a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+             A10010_007:      With a Householder Who Is Some Other Race Alone
+             A10010_008:      With a Householder Who Is Two or More Races
+             A10010_009:      With a Householder Who Is Hispanic or Latino
+             A10010_010:      With a Householder Who Is White Alone, Not  Hispanic or Latino
+
+
+      90. Housing Units by Hispanic Status of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10023
+          Variables:
+             A10023_001:   Occupied Housing Units:
+             A10023_002:      Hispanic or Latino Householder
+             A10023_003:      Not Hispanic or Latino Householder
+
+
+      91. Housing Units by Age of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10020
+          Variables:
+             A10020_001:   Occupied Housing Units:
+             A10020_002:      Householder 15 to 24 Years
+             A10020_003:      Householder 25 to 34 Years
+             A10020_004:      Householder 35 to 44 Years
+             A10020_005:      Householder 45 to 54 Years
+             A10020_006:      Householder 55 to 59 Years
+             A10020_007:      Householder 60 to 64 Years
+             A10020_008:      Householder 65 to 74 Years
+             A10020_009:      Householder 75 to 84 Years
+             A10020_010:      Householder 85 Years and Over
+
+
+      92. Housing Units by Educational Attainment of Householder
+          Universe:  Universe:  Occupied housing units
+          Name:      A10021
+          Variables:
+             A10021_001:   Occupied Housing Units:
+             A10021_002:      Less than High School Graduate
+             A10021_003:      High School Graduate (Including Equivalency)
+             A10021_004:      Some College or Associate's Degree
+             A10021_005:      Bachelor's Degree or Higher
+
+
+      93. Household Income in the Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) (Additional Version)
+          Universe:  Universe:  Occupied housing units
+          Name:      A14002
+          Variables:
+             A14002_001:   Occupied Housing Units:
+             A14002_002:      Less than $5,000
+             A14002_003:      $5,000 to $9,999
+             A14002_004:      $10,000 to $14,999
+             A14002_005:      $15,000 to $19,999
+             A14002_006:      $20,000 to $24,999
+             A14002_007:      $25,000 to $34,999
+             A14002_008:      $35,000 to $49,999
+             A14002_009:      $50,000 to $74,999
+             A14002_010:      $75,000 to $99,999
+             A14002_011:      $100,000 to $149,999
+             A14002_012:      $150,000 or More
+
+
+      94. Household Income in the Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) (Additional Version) - Cumulative (Less)
+          Universe:  Universe:  Occupied housing units
+          Name:      A14002A
+          Variables:
+             A14002A_001:   Occupied Housing Units:
+             A14002A_002:      Less than $5,000
+             A14002A_003:      Less than $10,000
+             A14002A_004:      Less than $15,000
+             A14002A_005:      Less than $20,000
+             A14002A_006:      Less than $25,000
+             A14002A_007:      Less than $35,000
+             A14002A_008:      Less than $50,000
+             A14002A_009:      Less than $75,000
+             A14002A_010:      Less than $100,000
+             A14002A_011:      Less than $150,000
+
+
+      95. Household Income in the Past 12 Months (In <DollarYear> Inflation-Adjusted Dollars) (Additional Version) - Cumulative (More)
+          Universe:  Universe:  Occupied housing units
+          Name:      A14002B
+          Variables:
+             A14002B_001:   Occupied Housing Units:
+             A14002B_002:      More than $5,000
+             A14002B_003:      More than $10,000
+             A14002B_004:      More than $15,000
+             A14002B_005:      More than $20,000
+             A14002B_006:      More than $25,000
+             A14002B_007:      More than $35,000
+             A14002B_008:      More than $50,000
+             A14002B_009:      More than $75,000
+             A14002B_010:      More than $100,000
+             A14002B_011:      More than $150,000
+
+
+      96. Housing Units by Housing Costs as a Percentage of Household Income in the Past 12 Months
+          Universe:  Universe:  Occupied housing units
+          Name:      A10026
+          Variables:
+             A10026_001:   Occupied Housing Units:
+             A10026_002:      Less than $20,000:
+             A10026_003:         Less than 20 Percent
+             A10026_004:         20 to 29 Percent
+             A10026_005:         30 Percent or More
+             A10026_006:      $20,000 to $34,999:
+             A10026_007:         Less than 20 Percent
+             A10026_008:         20 to 29 Percent
+             A10026_009:         30 Percent or More
+             A10026_010:      $35,000 to $49,999:
+             A10026_011:         Less than 20 Percent
+             A10026_012:         20 to 29 Percent
+             A10026_013:         30 Percent or More
+             A10026_014:      $50,000 to $74,999:
+             A10026_015:         Less than 20 Percent
+             A10026_016:         20 to 29 Percent
+             A10026_017:         30 Percent or More
+             A10026_018:      $75,000 or More:
+             A10026_019:         Less than 20 Percent
+             A10026_020:         20 to 29 Percent
+             A10026_021:         30 Percent or More
+             A10026_022:      Zero or Negative Income
+             A10026_023:      No Cash Rent
+
+
+      97. Occupied Housing Units by Units in Structure
+          Universe:  Universe:  Occupied housing units
+          Name:      A10053
+          Variables:
+             A10053_001:   Occupied Housing Units:
+             A10053_002:      1, Detached
+             A10053_003:      1, Attached
+             A10053_004:      2
+             A10053_005:      3 or 4
+             A10053_006:      5 to 9
+             A10053_007:      10 to 19
+             A10053_008:      20 to 49
+             A10053_009:      50 or More
+             A10053_010:      Mobile Home
+             A10053_011:      Boat, Rv, Van, Etc.
+
+
+      98. Occupied Housing Units by Year Structure Built
+          Universe:  Universe:  Occupied housing units
+          Name:      A10055
+          Variables:
+             A10055_001:   Occupied Housing Units:
+             A10055_002:      Built 2014 or Later
+             A10055_003:      Built 2010 to 2013
+             A10055_004:      Built 2000 to 2009
+             A10055_005:      Built 1990 to 1999
+             A10055_006:      Built 1980 to 1989
+             A10055_007:      Built 1970 to 1979
+             A10055_008:      Built 1960 to 1969
+             A10055_009:      Built 1950 to 1959
+             A10055_010:      Built 1940 to 1949
+             A10055_011:      Built 1939 or Earlier
+
+
+      99. Housing Units by Year Householder Moved Into Unit
+          Universe:  Universe:  Occupied housing units
+          Name:      A10031
+          Variables:
+             A10031_001:   Occupied Housing Units:
+             A10031_002:      Moved in 2019 or Later
+             A10031_003:      Moved in 2015 to 2018
+             A10031_004:      Moved in 2010 to 2014
+             A10031_005:      Moved in 2000 to 2009
+             A10031_006:      Moved in 1990 to 1999
+             A10031_007:      Moved in 1989 or Earlier
+
+
+      100. Housing Units by Number of Occupants Per Room
+           Universe:  Universe:  Occupied housing units
+           Name:      A10028
+           Variables:
+              A10028_001:   Occupied Housing Units:
+              A10028_002:      0.50 or Less Occupants Per Room
+              A10028_003:      0.51 to 1.00 Occupants Per Room
+              A10028_004:      1.01 to 1.50 Occupants Per Room
+              A10028_005:      1.51 to 2.00 Occupants Per Room
+              A10028_006:      2.01 or More Occupants Per Room
+
+
+      101. Occupied Housing Units by Number of Rooms
+           Universe:  Universe:  Occupied housing units
+           Name:      A10052
+           Variables:
+              A10052_001:   Occupied Housing Units:
+              A10052_002:      1 Room
+              A10052_003:      2 Rooms
+              A10052_004:      3 Rooms
+              A10052_005:      4 Rooms
+              A10052_006:      5 Rooms
+              A10052_007:      6 Rooms
+              A10052_008:      7 Rooms
+              A10052_009:      8 Rooms
+              A10052_010:      9 or More Rooms
+
+
+      102. Occupied Housing Units by Number of Bedrooms
+           Universe:  Universe:  Occupied housing units
+           Name:      A10050
+           Variables:
+              A10050_001:   Occupied Housing Units:
+              A10050_002:      No Bedroom
+              A10050_003:      1 Bedroom
+              A10050_005:      2 Bedrooms
+              A10050_006:      3 Bedrooms
+              A10050_007:      4 Bedrooms
+              A10050_008:      5 or More Bedrooms
+
+
+      103. Housing Units by Monthly Housing Costs
+           Universe:  Universe:  Occupied housing units
+           Name:      A10027
+           Variables:
+              A10027_001:   Occupied Housing Units:
+              A10027_002:      Less than $100
+              A10027_003:      $100 to $199
+              A10027_004:      $200 to $299
+              A10027_005:      $300 to $399
+              A10027_006:      $400 to $499
+              A10027_007:      $500 to $599
+              A10027_008:      $600 to $699
+              A10027_009:      $700 to $799
+              A10027_010:      $800 to $899
+              A10027_011:      $900 to $999
+              A10027_012:      $1,000 to $1,499
+              A10027_013:      $1,500 to $1,999
+              A10027_014:      $2,000 to $2,499
+              A10027_015:      $2,500 to $2,999
+              A10027_016:      $3,000 or More
+              A10027_017:      No Cash Rent
+
+
+      104. Housing Units by Vehicles Available
+           Universe:  Universe:  Occupied housing units
+           Name:      A10030
+           Variables:
+              A10030_001:   Occupied Housing Units:
+              A10030_002:      No Vehicle Available
+              A10030_003:      1 Vehicle Available
+              A10030_004:      2 Vehicles Available
+              A10030_005:      3 Vehicles Available
+              A10030_006:      4 Vehicles Available
+              A10030_007:      5 or More Vehicles Available
+
+
+      105. Occupied Housing Units by Complete Facilities
+           Universe:  Universe:  Occupied housing units
+           Name:      A10048
+           Variables:
+              A10048_001:   Occupied Housing Units:
+              A10048_002:      Complete Plumbing Facilities
+              A10048_003:      Complete Kitchen Facilities
+
+
+      106. Housing Units by Telephone Service Available by Age of Householder
+           Universe:  Universe:  Occupied housing units
+           Name:      A10029
+           Variables:
+              A10029_001:   Occupied Housing Units:
+              A10029_002:      With Telephone Service Available
+              A10029_003:         Householder 15 to 34 Years
+              A10029_004:         Householder 35 to 64 Years
+              A10029_005:         Householder 65 Years and Over
+              A10029_006:      No Telephone Service Available
+              A10029_007:         Householder 15 to 34 Years
+              A10029_008:         Householder 35 to 64 Years
+              A10029_009:         Householder 65 Years and Over
+
+
+      107. Age (Short Version)
+           Universe:  Total Population
+           Name:      B01001
+           Variables:
+              B01001_001:   Total Population:
+              B01001_002:      Under 18 Years
+              B01001_003:      18 to 34 Years
+              B01001_004:      35 to 64 Years
+              B01001_005:      65 and Over
+
+
+      108. Hispanic or Latino by Race (Collapsed Version)
+           Universe:  Total Population
+           Name:      B04001
+           Variables:
+              B04001_001:   Total Population:
+              B04001_002:      Not Hispanic or Latino:
+              B04001_003:         White Alone
+              B04001_004:         Black or African American Alone
+              B04001_005:         American Indian and Alaska Native Alone
+              B04001_006:         Asian Alone
+              B04001_007:         Native Hawaiian and Other Pacific Islander Alone
+              B04001_008:         Some Other Race Alone
+              B04001_009:         Two or More Races
+              B04001_010:      Hispanic or Latino
+
+
+      109. Educational Attainment for Population 25 Years and Over (Collapsed Version)
+           Universe:  Population 25 Years and Over
+           Name:      B12001
+           Variables:
+              B12001_001:   Population 25 Years and Over:
+              B12001_002:      Less than High School
+              B12001_003:      High School Diploma
+              B12001_004:      Bachelor's Degree or Better
+
+
+      110. Industry by Occupation for Employed Civilian Population 16 Years and Over
+           Universe:  Civilian employed population 16 years and Over
+           Name:      A17004
+           Variables:
+              A17004_001:   Total Employed Civilian Population 16 Years and Over:
+              A17004_002:      Agriculture, Forestry, Fishing and Hunting, and Mining
+              A17004_003:      Construction
+              A17004_004:      Manufacturing
+              A17004_005:      Wholesale Trade
+              A17004_006:      Retail Trade
+              A17004_007:      Transportation and Warehousing, and Utilities
+              A17004_008:      Information
+              A17004_009:      Finance and Insurance, and Real Estate and Rental  and Leasing
+              A17004_010:      Professional, Scientific, and Management, and  Administrative and Waste Management Services
+              A17004_011:      Educational Services, and Health Care and Social  Assistance
+              A17004_012:      Arts, Entertainment, and Recreation, and  Accommodation and Food Services
+              A17004_013:      Other Services, Except Public Administration
+              A17004_014:      Public Administration
+
+
+      111. Household Income (In <DollarYear> Inflation Adjusted Dollars) (Collapsed Version)
+           Universe:  Households
+           Name:      B14001
+           Variables:
+              B14001_001:   Households:
+              B14001_002:      Less than $25,000
+              B14001_003:      $25,000 to $49,999
+              B14001_004:      $50,000 to $74,999
+              B14001_005:      $75,000 to $99,999
+              B14001_006:      $100,000 or More
+
+
+      112. White vs Non-White Homeowners
+           Universe:  Owner Occupied Housing Units
+           Name:      B10060
+           Variables:
+              B10060_001:   Owner Occupied Housing Units:
+              B10060_002:      White Alone, Not Hispanic or Latino Homeowners 
+              B10060_003:      Non-White Homeowners
+
+
+      113. Residents Paying More Than 30% or at least 50% of Income on Rent
+           Universe:  Renter-Occupied Housing Units
+           Name:      B18002
+           Variables:
+              B18002_001:   Renter-Occupied Housing Units:
+              B18002_002:      30 to 49 Percent
+              B18002_003:      50 percent or More
+
+
+      114. Residents Paying More Than 30% or at least 50% of Income on Selected Home Ownership Expenses
+           Universe:  Owner-Occupied Housing Units
+           Name:      B10040
+           Variables:
+              B10040_001:   Owner-Occupied Housing Units:
+              B10040_002:      Homeowners Who are Paying at Least 30% of Income for Ownership Costs
+              B10040_003:      Homeowners Who are Paying at Least 50% of Income for Ownership Costs
+
+
+      115. Children Living with Single Parents
+           Universe:  Own Children under 18 Years
+           Name:      A10065
+           Variables:
+              A10065_001:   Own Children under 18 Years:
+              A10065_002:      Children Living with Single Parents
+
+
+      116. Household Type by Household Size
+           Universe:  Households
+           Name:      A10066
+           Variables:
+              A10066_001:   Households:
+              A10066_002:      1-Person Household
+              A10066_003:      2-Person Household
+              A10066_004:      3-Person Household
+              A10066_005:      4-Person Household
+              A10066_006:      5-Person Household
+              A10066_007:      6-Person Household
+              A10066_008:      7-or-More Person Household
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area- Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Combined Statistical Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A01001_001:     Total Population:
+      A01001_002:     Total Population: Under 5 Years
+      A01001_003:     Total Population: 5 to 9 Years
+      A01001_004:     Total Population: 10 to 14 Years
+      A01001_005:     Total Population: 15 to 17 Years
+      A01001_006:     Total Population: 18 to 24 Years
+      A01001_007:     Total Population: 25 to 34 Years
+      A01001_008:     Total Population: 35 to 44 Years
+      A01001_009:     Total Population: 45 to 54 Years
+      A01001_010:     Total Population: 55 to 64 Years
+      A01001_011:     Total Population: 65 to 74 Years
+      A01001_012:     Total Population: 75 to 84 Years
+      A01001_013:     Total Population: 85 Years and Over
+      A01002B_001:    Male Population:
+      A01002B_002:    Male Population: Under 18 Years
+      A01002B_003:    Male Population: 18 to 34 Years
+      A01002B_004:    Male Population: 35 to 64 Years
+      A01002B_005:    Male Population: 65 and Over
+      A01002A_001:    Female Population:
+      A01002A_002:    Female Population: Under 18 Years
+      A01002A_003:    Female Population: 18 to 34 Years
+      A01002A_004:    Female Population: 35 to 64 Years
+      A01002A_005:    Female Population: 65 and Over
+      A01004_001:     Median Age:
+      A01004_002:     Median Age: Male Population
+      A01004_003:     Median Age: Female Population
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      A04001_001:     Total Population
+      A04001_002:     Total Population: Not Hispanic or Latino
+      A04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      A04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      A04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      A04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      A04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      A04001_010:     Total Population: Hispanic or Latino
+      A04001_011:     Total Population: Hispanic or Latino: White Alone
+      A04001_012:     Total Population: Hispanic or Latino: Black or African American Alone
+      A04001_013:     Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_014:     Total Population: Hispanic or Latino: Asian Alone
+      A04001_015:     Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_016:     Total Population: Hispanic or Latino: Some Other Race Alone
+      A04001_017:     Total Population: Hispanic or Latino: Two or More Races
+      A04002_001:     Total Population
+      A04002_002:     Total Population: Not Hispanic or Latino
+      A04002_003:     Total Population: Hispanic or Latino
+      A04002_004:     Total Population: Hispanic or Latino: Mexican
+      A04002_005:     Total Population: Hispanic or Latino: Puerto Rican
+      A04002_006:     Total Population: Hispanic or Latino: Cuban
+      A04002_007:     Total Population: Hispanic or Latino: Dominican Republic
+      A04002_008:     Total Population: Hispanic or Latino: Central American
+      A04002_009:     Total Population: Hispanic or Latino: Central American: Costa Rican
+      A04002_010:     Total Population: Hispanic or Latino: Central American: Guatemalan
+      A04002_011:     Total Population: Hispanic or Latino: Central American: Honduran
+      A04002_012:     Total Population: Hispanic or Latino: Central American: Nicaraguan
+      A04002_013:     Total Population: Hispanic or Latino: Central American: Panamanian
+      A04002_014:     Total Population: Hispanic or Latino: Central American: Salvadoran
+      A04002_015:     Total Population: Hispanic or Latino: Central American: Other Central American
+      A04002_016:     Total Population: Hispanic or Latino: South American
+      A04002_017:     Total Population: Hispanic or Latino: South American: Argentinean
+      A04002_018:     Total Population: Hispanic or Latino: South American: Bolivian
+      A04002_019:     Total Population: Hispanic or Latino: South American: Chilean
+      A04002_020:     Total Population: Hispanic or Latino: South American: Colombian
+      A04002_021:     Total Population: Hispanic or Latino: South American: Ecuadorian
+      A04002_022:     Total Population: Hispanic or Latino: South American: Paraguayan
+      A04002_023:     Total Population: Hispanic or Latino: South American: Peruvian
+      A04002_024:     Total Population: Hispanic or Latino: South American: Uruguayan
+      A04002_025:     Total Population: Hispanic or Latino: South American: Venezuelan
+      A04002_026:     Total Population: Hispanic or Latino: South American: Other South American
+      A04002_027:     Total Population: Hispanic or Latino: Other Hispanic or Latino
+      A04002_028:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spaniard
+      A04002_029:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish
+      A04002_030:     Total Population: Hispanic or Latino: Other Hispanic or Latino: Spanish American
+      A04002_031:     Total Population: Hispanic or Latino: Other Hispanic or Latino: All Other Hispanic or Latino
+      A03002_001:     Total:
+      A03002_002:     Total: Asian Indian
+      A03002_003:     Total: Bangladeshi
+      A03002_020:     Total: Bhutanese
+      A03002_021:     Total: Burmese
+      A03002_004:     Total: Cambodian
+      A03002_005:     Total: Chinese, Except Taiwanese
+      A03002_006:     Total: Filipino
+      A03002_007:     Total: Hmong
+      A03002_008:     Total: Indonesian
+      A03002_009:     Total: Japanese
+      A03002_010:     Total: Korean
+      A03002_011:     Total: Laotian
+      A03002_012:     Total: Malaysian
+      A03002_022:     Total: Mongolian
+      A03002_023:     Total: Nepalese
+      A03002_024:     Total: Okinawan
+      A03002_013:     Total: Pakistani
+      A03002_014:     Total: Sri Lankan
+      A03002_015:     Total: Taiwanese
+      A03002_016:     Total: Thai
+      A03002_017:     Total: Vietnamese
+      A03002_018:     Total: Other Asian, Specified
+      A03002_019:     Total: Other Asian, Not Specified
+      A03002_025:     Total: Two or More Asian
+      A14001_001:     Households:
+      A14001_002:     Households: Less than $10,000
+      A14001_003:     Households: $10,000 to $14,999
+      A14001_004:     Households: $15,000 to $19,999
+      A14001_005:     Households: $20,000 to $24,999
+      A14001_006:     Households: $25,000 to $29,999
+      A14001_007:     Households: $30,000 to $34,999
+      A14001_008:     Households: $35,000 to $39,999
+      A14001_009:     Households: $40,000 to $44,999
+      A14001_010:     Households: $45,000 to $49,999
+      A14001_011:     Households: $50,000 to $59,999
+      A14001_012:     Households: $60,000 to $74,999
+      A14001_013:     Households: $75,000 to $99,999
+      A14001_014:     Households: $100,000 to $124,999
+      A14001_015:     Households: $125,000 to $149,999
+      A14001_016:     Households: $150,000 to $199,999
+      A14001_017:     Households: $200,000 or More
+      A14006_001:     Median Household Income (In 2020 Inflation Adjusted Dollars)
+      A14007_001:     Median Household Income (In 2020 Inflation Adjusted Dollars):
+      A14007_002:     Median Household Income (In 2020 Inflation Adjusted Dollars): White Alone Householder
+      A14007_003:     Median Household Income (In 2020 Inflation Adjusted Dollars): Black or African American Alone Householder
+      A14007_004:     Median Household Income (In 2020 Inflation Adjusted Dollars): American Indian and Alaska Native Alone  Householder
+      A14007_005:     Median Household Income (In 2020 Inflation Adjusted Dollars): Asian Alone
+      A14007_006:     Median Household Income (In 2020 Inflation Adjusted Dollars): Native Hawaiian and Other Pacific Islander Alone  Householder
+      A14007_007:     Median Household Income (In 2020 Inflation Adjusted Dollars): Some Other Race Alone Householder
+      A14007_008:     Median Household Income (In 2020 Inflation Adjusted Dollars): Two or More Races Householder
+      A14007_009:     Median Household Income (In 2020 Inflation Adjusted Dollars): Hispanic or Latino Householder
+      A14007_010:     Median Household Income (In 2020 Inflation Adjusted Dollars): White Alone Householder, Not Hispanic or Latino
+      A14008_001:     Average Household Income (In 2020 Inflation Adjusted Dollars)
+      A14010_001:     Median Family Income (In 2020 Inflation Adjusted Dollars)
+      A14011_001:     Average Family Income (In 2020 Inflation Adjusted Dollars)
+      A14012_001:     Median Nonfamily Household Income (In 2020 Inflation Adjusted Dollars)
+      A14013_001:     Average Nonfamily Income (In 2020 Inflation Adjusted Dollars)
+      A14014_001:     Median Income for Population 15 Years and Over:
+      A14014_002:     Median Income for Population 15 Years and Over: Male
+      A14014_003:     Median Income for Population 15 Years and Over: Male: Worked Full-Time, Year-Round in the Past 12 Months
+      A14014_004:     Median Income for Population 15 Years and Over: Male: Other
+      A14014_005:     Median Income for Population 15 Years and Over: Female
+      A14014_006:     Median Income for Population 15 Years and Over: Female: Worked Full-Time, Year-Round in the Past 12 Months
+      A14014_007:     Median Income for Population 15 Years and Over: Female: Other
+      A15001_001:     Median Earnings:
+      A15001_002:     Median Earnings: Less than High School Graduate
+      A15001_003:     Median Earnings: High School Graduate (Includes Equivalency)
+      A15001_004:     Median Earnings: Some College or Associate's Degree
+      A15001_005:     Median Earnings: Bachelor's Degree
+      A15001_006:     Median Earnings: Graduate or Professional Degree
+      A15001_007:     Median Earnings: Male
+      A15001_008:     Median Earnings: Male: Less than High School Graduate
+      A15001_009:     Median Earnings: Male: High School Graduate (Includes Equivalency)
+      A15001_010:     Median Earnings: Male: Some College or Associate's Degree
+      A15001_011:     Median Earnings: Male: Bachelor's Degree
+      A15001_012:     Median Earnings: Male: Graduate or Professional Degree
+      A15001_013:     Median Earnings: Female
+      A15001_014:     Median Earnings: Female: Less than High School Graduate
+      A15001_015:     Median Earnings: Female: High School Graduate (Includes Equivalency)
+      A15001_016:     Median Earnings: Female: Some College or Associate's Degree
+      A15001_017:     Median Earnings: Female: Bachelor's Degree
+      A15001_018:     Median Earnings: Female: Graduate or Professional Degree
+      A14015_001:     Median Household Income Occupied Housing Units:
+      A14015_002:     Median Household Income Occupied Housing Units: Owner Occupied
+      A14015_003:     Median Household Income Occupied Housing Units: Renter Occupied
+      A10011_001:     Households:
+      A10011_002:     Households: with Earnings
+      A10011_003:     Households: No Earnings
+      A10019_001:     Households:
+      A10019_002:     Households: with Wage or Salary Income
+      A10019_003:     Households: No Wage or Salary Income
+      A10016_001:     Households:
+      A10016_002:     Households: with Self-Employment Income
+      A10016_003:     Households: No Self-Employment Income
+      A10012_001:     Households:
+      A10012_002:     Households: with Interest, Dividends, or Net Rental Income
+      A10012_003:     Households: No Interest, Dividends, or Net Rental Income
+      A10017_001:     Households:
+      A10017_002:     Households: with Social Security Income
+      A10017_003:     Households: No Social Security Income
+      A10018_001:     Households:
+      A10018_002:     Households: with Supplemental Security Income (Ssi)
+      A10018_003:     Households: No Supplemental Security Income (Ssi)
+      A10014_001:     Households:
+      A10014_002:     Households: with Public Assistance Income
+      A10014_003:     Households: No Public Assistance Income
+      A10015_001:     Households:
+      A10015_002:     Households: with Retirement Income
+      A10015_003:     Households: No Retirement Income
+      A10013_001:     Households:
+      A10013_002:     Households: with Other Types of Income
+      A10013_003:     Households: No Other Types of Income
+      A14024_001:     Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024A_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024B_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024C_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024D_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024E_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024F_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024G_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024H_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A14024I_001:    Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A02001_001:     Total Population:
+      A02001_002:     Total Population: Male
+      A02001_003:     Total Population: Female
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      A10001_001:     Housing Units
+      A10060_001:     Occupied Housing Units:
+      A10060_002:     Occupied Housing Units: Owner Occupied
+      A10060_003:     Occupied Housing Units: Renter Occupied
+      B13004_001:     Population for Whom Poverty Status Is Determined:
+      B13004_002:     Population for Whom Poverty Status Is Determined: Under 1.00 (Doing Poorly)
+      B13004_003:     Population for Whom Poverty Status Is Determined: 1.00 to 1.99 (Struggling)
+      B13004_004:     Population for Whom Poverty Status Is Determined: Under 2.00 (Poor or Struggling)
+      B13004_005:     Population for Whom Poverty Status Is Determined: 2.00 and Over (Doing Ok)
+      A13002_001:     Families:
+      A13002_002:     Families: Income Below Poverty Level
+      A13002_003:     Families: Income Below Poverty Level: Married Couple Family: with Related Child Living  Below Poverty Level
+      A13002_004:     Families: Income Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      A13002_005:     Families: Income Below Poverty Level: Male Householder, No Wife Present
+      A13002_006:     Families: Income Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      A13002_007:     Families: Income Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      A13002_008:     Families: Income Below Poverty Level: Female Householder, No Husband Present
+      A13002_009:     Families: Income Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      A13002_010:     Families: Income Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      A13002_011:     Families: Income At or Above Poverty Level
+      A13003A_001:    Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      A13003A_002:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      A13003A_003:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      A13003B_001:    Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+      A13003B_002:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: Living in Poverty
+      A13003B_003:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: At or Above Poverty Level
+      A13003C_001:    Population Age 65 and Over for Whom Poverty  Status Is Determined:
+      A13003C_002:    Population Age 65 and Over for Whom Poverty  Status Is Determined: Living in Poverty
+      A13003C_003:    Population Age 65 and Over for Whom Poverty  Status Is Determined: At or Above Poverty Level
+      A13004_001:     Population for Whom Poverty Status Is Determined:
+      A13004_002:     Population for Whom Poverty Status Is Determined: Under .50
+      A13004_003:     Population for Whom Poverty Status Is Determined: .50 to .74
+      A13004_004:     Population for Whom Poverty Status Is Determined: .75 to .99
+      A13004_005:     Population for Whom Poverty Status Is Determined: 1.00 to 1.49
+      A13004_006:     Population for Whom Poverty Status Is Determined: 1.50 to 1.99
+      A13004_007:     Population for Whom Poverty Status Is Determined: 2.00 and Over
+      A13001A_001:    White Alone Population for Whom Poverty Status Is  Determined:
+      A13001A_002:    White Alone Population for Whom Poverty Status Is  Determined: Income Below Poverty Level
+      A13001A_003:    White Alone Population for Whom Poverty Status Is  Determined: Income At or Above Poverty Level
+      A13001B_001:    Black or African American Alone Population for  Whom Poverty Status Is Determined:
+      A13001B_002:    Black or African American Alone Population for  Whom&nbsp; Poverty Status Is Determined: Income Below Poverty Level
+      A13001B_003:    Black or African American Alone Population for  Whom&nbsp; Poverty Status Is Determined: Income At or Above Poverty Level
+      A13001C_001:    American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+      A13001C_002:    American Indian and Alaska Native Alone  Population For&nbsp; Whom Poverty Status Is Determined: Income Below Poverty Level
+      A13001C_003:    American Indian and Alaska Native Alone  Population For&nbsp; Whom Poverty Status Is Determined: Income At or Above Poverty Level
+      A13001D_001:    Asian Alone Population for Whom Poverty Status Is  Determined:
+      A13001D_002:    Asian Alone Population for Whom Poverty Status Is  Determined: Income Below Poverty Level
+      A13001D_003:    Asian Alone Population for Whom Poverty Status Is  Determined: Income At or Above Poverty Level
+      A13001E_001:    Native Hawaiian and Other Pacific Islander Alone  Population for Whom Poverty Status Is Determined:
+      A13001E_002:    Native Hawaiian and Other Pacific Islander Alone &nbsp; Population for Whom Poverty Status Is Determined: Income Below Poverty Level
+      A13001E_003:    Native Hawaiian and Other Pacific Islander Alone &nbsp; Population for Whom Poverty Status Is Determined: Income At or Above Poverty Level
+      A13001F_001:    Some Other Race Alone Population for Whom Poverty  Status Is Determined:
+      A13001F_002:    Some Other Race Alone Population for Whom Poverty  Status Is Determined: Income Below Poverty Level
+      A13001F_003:    Some Other Race Alone Population for Whom Poverty  Status Is Determined: Income At or Above Poverty Level
+      A13001G_001:    Two or More Races Population for Whom Poverty  Status Is Determined:
+      A13001G_002:    Two or More Races Population for Whom Poverty  Status Is Determined: Income Below Poverty Level
+      A13001G_003:    Two or More Races Population for Whom Poverty  Status Is Determined: Income At or Above Poverty Level
+      A13001H_001:    Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+      A13001H_002:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income Below Poverty Level
+      A13001H_003:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income At or Above Poverty Level
+      A13001I_001:    White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+      A13001I_002:    White Alone, Not Hispanic or Latino Population  for Whom&nbsp; Poverty Status Is Determined: Income Below Poverty Level
+      A13001I_003:    White Alone, Not Hispanic or Latino Population  for Whom&nbsp; Poverty Status Is Determined: Income At or Above Poverty Level
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree
+      A12001_006:     Population 25 Years and Over: Master's Degree
+      A12001_007:     Population 25 Years and Over: Professional School Degree
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      A12001A_001:    Male Population 25 Years and Over:
+      A12001A_002:    Male Population 25 Years and Over: Less than High School
+      A12001A_003:    Male Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001A_004:    Male Population 25 Years and Over: Some College
+      A12001A_005:    Male Population 25 Years and Over: Bachelor's Degree
+      A12001A_006:    Male Population 25 Years and Over: Master's Degree
+      A12001A_007:    Male Population 25 Years and Over: Professional School Degree
+      A12001A_008:    Male Population 25 Years and Over: Doctorate Degree
+      A12002A_001:    Male Population 25 Years and Over:
+      A12002A_002:    Male Population 25 Years and Over: Less than High School
+      A12002A_003:    Male Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002A_004:    Male Population 25 Years and Over: Some College or More
+      A12002A_005:    Male Population 25 Years and Over: Bachelor's Degree or More
+      A12002A_006:    Male Population 25 Years and Over: Master's Degree or More
+      A12002A_007:    Male Population 25 Years and Over: Professional School Degree or More
+      A12002A_008:    Male Population 25 Years and Over: Doctorate Degree
+      A12001B_001:    Female Population 25 Years and Over:
+      A12001B_002:    Female Population 25 Years and Over: Less than High School
+      A12001B_003:    Female Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001B_004:    Female Population 25 Years and Over: Some College
+      A12001B_005:    Female Population 25 Years and Over: Bachelor's Degree
+      A12001B_006:    Female Population 25 Years and Over: Master's Degree
+      A12001B_007:    Female Population 25 Years and Over: Professional School Degree
+      A12001B_008:    Female Population 25 Years and Over: Doctorate Degree
+      A12002B_001:    Female Population 25 Years and Over:
+      A12002B_002:    Female Population 25 Years and Over: Less than High School
+      A12002B_003:    Female Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002B_004:    Female Population 25 Years and Over: Some College or More
+      A12002B_005:    Female Population 25 Years and Over: Bachelor's Degree or More
+      A12002B_006:    Female Population 25 Years and Over: Master's Degree or More
+      A12002B_007:    Female Population 25 Years and Over: Professional School Degree or More
+      A12002B_008:    Female Population 25 Years and Over: Doctorate Degree
+      A12003_001:     Civilian Population 16 to 19 Years:
+      A12003_002:     Civilian Population 16 to 19 Years: Not High School Graduate, Not Enrolled (Dropped Out)
+      A12003_003:     Civilian Population 16 to 19 Years: High School Graduate, or Enrolled (In School)
+      A12003A_001:    Male Civilian Population 16 to 19 Years:
+      A12003A_002:    Male Civilian Population 16 to 19 Years: Not High School Graduate, Not Enrolled (Dropped Out)
+      A12003A_003:    Male Civilian Population 16 to 19 Years: High School Graduate, or Enrolled (In School)
+      A12003B_001:    Female Civilian Population 16 to 19 Years:
+      A12003B_002:    Female Civilian Population 16 to 19 Years: Not High School Graduate, Not Enrolled (Dropped Out)
+      A12003B_003:    Female Civilian Population 16 to 19 Years: High School Graduate, or Enrolled (In School)
+      A10044_001:     Housing Units:
+      A10044_002:     Housing Units: Occupied
+      A10044_003:     Housing Units: Vacant
+      A10047_001:     Vacant Housing Units:
+      A10047_002:     Vacant Housing Units: for Rent
+      A10047_003:     Vacant Housing Units: for Sale Only
+      A10047_004:     Vacant Housing Units: Other Vacant
+      A10032_001:     Housing Units:
+      A10032_002:     Housing Units: 1 Unit
+      A10032_003:     Housing Units: 1 Unit: 1, Detached
+      A10032_004:     Housing Units: 1 Unit: 1, Attached
+      A10032_005:     Housing Units: 2
+      A10032_006:     Housing Units: 3 or 4
+      A10032_007:     Housing Units: 5 to 9
+      A10032_008:     Housing Units: 10 to 19
+      A10032_009:     Housing Units: 20 to 49
+      A10032_010:     Housing Units: 50 or More
+      A10032_011:     Housing Units: Mobile Home
+      A10032_012:     Housing Units: Boat, Rv, Van, Etc.
+      A10057_001:     Median Year Structure Built
+      A10034_001:     Occupied Housing Units:
+      A10034_002:     Occupied Housing Units: Gas (Utility, Bottled, Tank, or Lp Gas)
+      A10034_003:     Occupied Housing Units: Electricity
+      A10034_004:     Occupied Housing Units: Fuel Oil, Kerosene, Etc.
+      A10034_005:     Occupied Housing Units: Coal, Coke or Wood
+      A10034_006:     Occupied Housing Units: Solar Energy
+      A10034_007:     Occupied Housing Units: Other Fuel
+      A10034_008:     Occupied Housing Units: No Fuel Used
+      A10035_001:     Owner-Occupied Housing Units:
+      A10035_002:     Owner-Occupied Housing Units: Less than $20,000
+      A10035_003:     Owner-Occupied Housing Units: $20,000 to $49,999
+      A10035_004:     Owner-Occupied Housing Units: $50,000 to $99,999
+      A10035_005:     Owner-Occupied Housing Units: $100,000 to $149,999
+      A10035_006:     Owner-Occupied Housing Units: $150,000 to $299,999
+      A10035_007:     Owner-Occupied Housing Units: $300,000 to $499,999
+      A10035_008:     Owner-Occupied Housing Units: $500,000 to $749,999
+      A10035_009:     Owner-Occupied Housing Units: $750,000 to $999,999
+      A10035_010:     Owner-Occupied Housing Units: $1,000,000 or More
+      A10036_001:     Median Value
+      A18001_001:     Renter-Occupied Housing Units with Cash Rent:
+      A18001_002:     Renter-Occupied Housing Units with Cash Rent: Less than $300
+      A18001_003:     Renter-Occupied Housing Units with Cash Rent: $300 to $599
+      A18001_004:     Renter-Occupied Housing Units with Cash Rent: $600 to $799
+      A18001_005:     Renter-Occupied Housing Units with Cash Rent: $800 to $999
+      A18001_006:     Renter-Occupied Housing Units with Cash Rent: $1,000 to $1,249
+      A18001_007:     Renter-Occupied Housing Units with Cash Rent: $1,250 to $1,499
+      A18001_008:     Renter-Occupied Housing Units with Cash Rent: $1,500 to $1,999
+      A18001_009:     Renter-Occupied Housing Units with Cash Rent: $2,000 or More
+      A18002_001:     Renter-Occupied Housing Units:
+      A18002_002:     Renter-Occupied Housing Units: Less than 10 Percent
+      A18002_003:     Renter-Occupied Housing Units: 10 to 29 Percent
+      A18002_004:     Renter-Occupied Housing Units: 30 to 49 Percent
+      A18002_005:     Renter-Occupied Housing Units: 50 Percent or More
+      A18002_006:     Renter-Occupied Housing Units: Not Computed
+      A18009_001:     Median Gross Rent
+      A18003_001:     Median Gross Rent as a Percentage of Household  Income in the Past 12 Months (Dollars)
+      A18005_001:     Average Gross Rent for Renter-Occupied Housing Units
+      A10041_001:     Owner-Occupied Housing Units:
+      A10041_002:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts
+      A10041_003:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts: with Either a Second Mortgage or Home Equity  Loan, but Not Both
+      A10041_004:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts: with Either a Second Mortgage or Home Equity  Loan, but Not Both: Second Mortgage Only
+      A10041_005:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts: with Either a Second Mortgage or Home Equity  Loan, but Not Both: Home Equity Loan Only
+      A10041_006:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts: Both Second Mortgage and Home Equity Loan
+      A10041_007:     Owner-Occupied Housing Units: Housing Units with a Mortgage, Home Equity Loan,  or Similar Debts: No Second Mortgage and No Home Equity Loan
+      A10041_008:     Owner-Occupied Housing Units: Housing Units Without a Mortgage
+      A10040_001:     Owner-Occupied Housing Units:
+      A10040_002:     Owner-Occupied Housing Units: Housing Units with a Mortgage
+      A10040_003:     Owner-Occupied Housing Units: Housing Units with a Mortgage: Less than 30 Percent
+      A10040_004:     Owner-Occupied Housing Units: Housing Units with a Mortgage: 30 Percent or More
+      A10040_005:     Owner-Occupied Housing Units: Housing Units with a Mortgage: 50 Percent or More
+      A10040_006:     Owner-Occupied Housing Units: Housing Units with a Mortgage: Not Computed
+      A10040_007:     Owner-Occupied Housing Units: Housing Units Without a Mortgage
+      A10040_008:     Owner-Occupied Housing Units: Housing Units Without a Mortgage: Less than 30 Percent
+      A10040_009:     Owner-Occupied Housing Units: Housing Units Without a Mortgage: 30 Percent or More
+      A10040_010:     Owner-Occupied Housing Units: Housing Units Without a Mortgage: 50 Percent or More
+      A10040_011:     Owner-Occupied Housing Units: Housing Units Without a Mortgage: Not Computed
+      A10049_001:     Housing Units with a Mortgage:
+      A10049_002:     Housing Units with a Mortgage: Less than 30 Percent
+      A10049_003:     Housing Units with a Mortgage: 30 Percent or More
+      A10049_004:     Housing Units with a Mortgage: 50 Percent or More
+      A10049_005:     Housing Units with a Mortgage: Not Computed
+      A10051_001:     Housing Units Without a Mortgage:
+      A10051_002:     Housing Units Without a Mortgage: Less than 30 Percent
+      A10051_003:     Housing Units Without a Mortgage: 30 Percent or More
+      A10051_004:     Housing Units Without a Mortgage: 50 Percent or More
+      A10051_005:     Housing Units Without a Mortgage: Not Computed
+      A10037_001:     Median Selected Monthly Owner Costs as a Percentage of Household Income:
+      A10037_002:     Median Selected Monthly Owner Costs as a Percentage Of&nbsp; Household Income: Housing Units with a Mortgage
+      A10037_003:     Median Selected Monthly Owner Costs as a Percentage Of&nbsp; Household Income: Housing Units Without a Mortgage
+      A10025_001:     Occupied Housing Units
+      A10025_002:     Occupied Housing Units: Family Households
+      A10025_003:     Occupied Housing Units: Family Households: Married-Couple Family
+      A10025_004:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 15 to 34 Years
+      A10025_005:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 35 to 64 Years
+      A10025_006:     Occupied Housing Units: Family Households: Married-Couple Family: Householder 65 Years and Over
+      A10025_007:     Occupied Housing Units: Family Households: Other Family
+      A10025_008:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present
+      A10025_009:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 15 to 34 Years
+      A10025_010:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 35 to 64 Years
+      A10025_011:     Occupied Housing Units: Family Households: Other Family: Male Householder, No Wife Present: Householder 65 Years and Over
+      A10025_012:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present
+      A10025_013:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 15 to 34 Years
+      A10025_014:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 35 to 64 Years
+      A10025_015:     Occupied Housing Units: Family Households: Other Family: Female Householder, No Husband Present: Householder 65 Years and Over
+      A10025_016:     Occupied Housing Units: Nonfamily Households
+      A10025_017:     Occupied Housing Units: Nonfamily Households: Householder Living Alone
+      A10025_018:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 15 to 34 Years
+      A10025_019:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 35 to 64 Years
+      A10025_020:     Occupied Housing Units: Nonfamily Households: Householder Living Alone: Householder 65 Years and Over
+      A10025_021:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone
+      A10025_022:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 15 to 34 Years
+      A10025_023:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 35 to 64 Years
+      A10025_024:     Occupied Housing Units: Nonfamily Households: Householder Not Living Alone: Householder 65 Years and Over
+      A10024_001:     Occupied Housing Units
+      A10024_002:     Occupied Housing Units: 1-Person Household
+      A10024_003:     Occupied Housing Units: 2-Person Household
+      A10024_004:     Occupied Housing Units: 3-Person Household
+      A10024_005:     Occupied Housing Units: 4-Person Household
+      A10024_006:     Occupied Housing Units: 5-Person Household
+      A10024_007:     Occupied Housing Units: 6-Person Household
+      A10024_008:     Occupied Housing Units: 7-or-More Person Household
+      A10022_001:     Occupied Housing Units
+      A10022_002:     Occupied Housing Units: with Related Children of the Householder Under 18
+      A10022_003:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18
+      A10022_004:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years Only
+      A10022_005:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: Under 6 Years and 6 to 17 Years
+      A10022_006:     Occupied Housing Units: with Related Children of the Householder Under 18: with Own Children of the Householder Under 18: 6 to 17 Years
+      A10022_007:     Occupied Housing Units: with Related Children of the Householder Under 18: No Own Children of the Householder Under 18
+      A10022_008:     Occupied Housing Units: No Related Children of the Householder Under 18
+      A10010_001:     Households:
+      A10010_002:     Households: with a Householder Who Is White Alone
+      A10010_003:     Households: with a Householder Who Is Black or African  American Alone
+      A10010_004:     Households: with a Householder Who Is American Indian and  Alaska Native Alone
+      A10010_005:     Households: with a Householder Who Is Asian Alone
+      A10010_006:     Households: with a Householder Who Is Native Hawaiian and  Other Pacific Islander Alone
+      A10010_007:     Households: with a Householder Who Is Some Other Race Alone
+      A10010_008:     Households: with a Householder Who Is Two or More Races
+      A10010_009:     Households: with a Householder Who Is Hispanic or Latino
+      A10010_010:     Households: with a Householder Who Is White Alone, Not  Hispanic or Latino
+      A10023_001:     Occupied Housing Units
+      A10023_002:     Occupied Housing Units: Hispanic or Latino Householder
+      A10023_003:     Occupied Housing Units: Not Hispanic or Latino Householder
+      A10020_001:     Occupied Housing Units
+      A10020_002:     Occupied Housing Units: Householder 15 to 24 Years
+      A10020_003:     Occupied Housing Units: Householder 25 to 34 Years
+      A10020_004:     Occupied Housing Units: Householder 35 to 44 Years
+      A10020_005:     Occupied Housing Units: Householder 45 to 54 Years
+      A10020_006:     Occupied Housing Units: Householder 55 to 59 Years
+      A10020_007:     Occupied Housing Units: Householder 60 to 64 Years
+      A10020_008:     Occupied Housing Units: Householder 65 to 74 Years
+      A10020_009:     Occupied Housing Units: Householder 75 to 84 Years
+      A10020_010:     Occupied Housing Units: Householder 85 Years and Over
+      A10021_001:     Occupied Housing Units
+      A10021_002:     Occupied Housing Units: Less than High School Graduate
+      A10021_003:     Occupied Housing Units: High School Graduate (Including Equivalency)
+      A10021_004:     Occupied Housing Units: Some College or Associate's Degree
+      A10021_005:     Occupied Housing Units: Bachelor's Degree or Higher
+      A14002_001:     Occupied Housing Units
+      A14002_002:     Occupied Housing Units: Less than $5,000
+      A14002_003:     Occupied Housing Units: $5,000 to $9,999
+      A14002_004:     Occupied Housing Units: $10,000 to $14,999
+      A14002_005:     Occupied Housing Units: $15,000 to $19,999
+      A14002_006:     Occupied Housing Units: $20,000 to $24,999
+      A14002_007:     Occupied Housing Units: $25,000 to $34,999
+      A14002_008:     Occupied Housing Units: $35,000 to $49,999
+      A14002_009:     Occupied Housing Units: $50,000 to $74,999
+      A14002_010:     Occupied Housing Units: $75,000 to $99,999
+      A14002_011:     Occupied Housing Units: $100,000 to $149,999
+      A14002_012:     Occupied Housing Units: $150,000 or More
+      A14002A_001:    Occupied Housing Units
+      A14002A_002:    Less than $5,000
+      A14002A_003:    Less than $10,000
+      A14002A_004:    Less than $15,000
+      A14002A_005:    Less than $20,000
+      A14002A_006:    Less than $25,000
+      A14002A_007:    Less than $35,000
+      A14002A_008:    Less than $50,000
+      A14002A_009:    Less than $75,000
+      A14002A_010:    Less than $100,000
+      A14002A_011:    Less than $150,000
+      A14002B_001:    Occupied Housing Units
+      A14002B_002:    More than $5,000
+      A14002B_003:    More than $10,000
+      A14002B_004:    More than $15,000
+      A14002B_005:    More than $20,000
+      A14002B_006:    More than $25,000
+      A14002B_007:    More than $35,000
+      A14002B_008:    More than $50,000
+      A14002B_009:    More than $75,000
+      A14002B_010:    More than $100,000
+      A14002B_011:    More than $150,000
+      A10026_001:     Occupied Housing Units
+      A10026_002:     Occupied Housing Units: Less than $20,000
+      A10026_003:     Occupied Housing Units: Less than $20,000: Less than 20 Percent
+      A10026_004:     Occupied Housing Units: Less than $20,000: 20 to 29 Percent
+      A10026_005:     Occupied Housing Units: Less than $20,000: 30 Percent or More
+      A10026_006:     Occupied Housing Units: $20,000 to $34,999
+      A10026_007:     Occupied Housing Units: $20,000 to $34,999: Less than 20 Percent
+      A10026_008:     Occupied Housing Units: $20,000 to $34,999: 20 to 29 Percent
+      A10026_009:     Occupied Housing Units: $20,000 to $34,999: 30 Percent or More
+      A10026_010:     Occupied Housing Units: $35,000 to $49,999
+      A10026_011:     Occupied Housing Units: $35,000 to $49,999: Less than 20 Percent
+      A10026_012:     Occupied Housing Units: $35,000 to $49,999: 20 to 29 Percent
+      A10026_013:     Occupied Housing Units: $35,000 to $49,999: 30 Percent or More
+      A10026_014:     Occupied Housing Units: $50,000 to $74,999
+      A10026_015:     Occupied Housing Units: $50,000 to $74,999: Less than 20 Percent
+      A10026_016:     Occupied Housing Units: $50,000 to $74,999: 20 to 29 Percent
+      A10026_017:     Occupied Housing Units: $50,000 to $74,999: 30 Percent or More
+      A10026_018:     Occupied Housing Units: $75,000 or More
+      A10026_019:     Occupied Housing Units: $75,000 or More: Less than 20 Percent
+      A10026_020:     Occupied Housing Units: $75,000 or More: 20 to 29 Percent
+      A10026_021:     Occupied Housing Units: $75,000 or More: 30 Percent or More
+      A10026_022:     Occupied Housing Units: Zero or Negative Income
+      A10026_023:     Occupied Housing Units: No Cash Rent
+      A10053_001:     Occupied Housing Units
+      A10053_002:     Occupied Housing Units: 1, Detached
+      A10053_003:     Occupied Housing Units: 1, Attached
+      A10053_004:     Occupied Housing Units: 2
+      A10053_005:     Occupied Housing Units: 3 or 4
+      A10053_006:     Occupied Housing Units: 5 to 9
+      A10053_007:     Occupied Housing Units: 10 to 19
+      A10053_008:     Occupied Housing Units: 20 to 49
+      A10053_009:     Occupied Housing Units: 50 or More
+      A10053_010:     Occupied Housing Units: Mobile Home
+      A10053_011:     Occupied Housing Units: Boat, Rv, Van, Etc.
+      A10055_001:     Occupied Housing Units
+      A10055_002:     Occupied Housing Units: Built 2014 or Later
+      A10055_003:     Occupied Housing Units: Built 2010 to 2013
+      A10055_004:     Occupied Housing Units: Built 2000 to 2009
+      A10055_005:     Occupied Housing Units: Built 1990 to 1999
+      A10055_006:     Occupied Housing Units: Built 1980 to 1989
+      A10055_007:     Occupied Housing Units: Built 1970 to 1979
+      A10055_008:     Occupied Housing Units: Built 1960 to 1969
+      A10055_009:     Occupied Housing Units: Built 1950 to 1959
+      A10055_010:     Occupied Housing Units: Built 1940 to 1949
+      A10055_011:     Occupied Housing Units: Built 1939 or Earlier
+      A10031_001:     Occupied Housing Units
+      A10031_002:     Occupied Housing Units: Moved in 2019 or Later
+      A10031_003:     Occupied Housing Units: Moved in 2015 to 2018
+      A10031_004:     Occupied Housing Units: Moved in 2010 to 2014
+      A10031_005:     Occupied Housing Units: Moved in 2000 to 2009
+      A10031_006:     Occupied Housing Units: Moved in 1990 to 1999
+      A10031_007:     Occupied Housing Units: Moved in 1989 or Earlier
+      A10028_001:     Occupied Housing Units
+      A10028_002:     Occupied Housing Units: 0.50 or Less Occupants Per Room
+      A10028_003:     Occupied Housing Units: 0.51 to 1.00 Occupants Per Room
+      A10028_004:     Occupied Housing Units: 1.01 to 1.50 Occupants Per Room
+      A10028_005:     Occupied Housing Units: 1.51 to 2.00 Occupants Per Room
+      A10028_006:     Occupied Housing Units: 2.01 or More Occupants Per Room
+      A10052_001:     Occupied Housing Units
+      A10052_002:     Occupied Housing Units: 1 Room
+      A10052_003:     Occupied Housing Units: 2 Rooms
+      A10052_004:     Occupied Housing Units: 3 Rooms
+      A10052_005:     Occupied Housing Units: 4 Rooms
+      A10052_006:     Occupied Housing Units: 5 Rooms
+      A10052_007:     Occupied Housing Units: 6 Rooms
+      A10052_008:     Occupied Housing Units: 7 Rooms
+      A10052_009:     Occupied Housing Units: 8 Rooms
+      A10052_010:     Occupied Housing Units: 9 or More Rooms
+      A10050_001:     Occupied Housing Units
+      A10050_002:     Occupied Housing Units: No Bedroom
+      A10050_003:     Occupied Housing Units: 1 Bedroom
+      A10050_005:     Occupied Housing Units: 2 Bedrooms
+      A10050_006:     Occupied Housing Units: 3 Bedrooms
+      A10050_007:     Occupied Housing Units: 4 Bedrooms
+      A10050_008:     Occupied Housing Units: 5 or More Bedrooms
+      A10027_001:     Occupied Housing Units
+      A10027_002:     Occupied Housing Units: Less than $100
+      A10027_003:     Occupied Housing Units: $100 to $199
+      A10027_004:     Occupied Housing Units: $200 to $299
+      A10027_005:     Occupied Housing Units: $300 to $399
+      A10027_006:     Occupied Housing Units: $400 to $499
+      A10027_007:     Occupied Housing Units: $500 to $599
+      A10027_008:     Occupied Housing Units: $600 to $699
+      A10027_009:     Occupied Housing Units: $700 to $799
+      A10027_010:     Occupied Housing Units: $800 to $899
+      A10027_011:     Occupied Housing Units: $900 to $999
+      A10027_012:     Occupied Housing Units: $1,000 to $1,499
+      A10027_013:     Occupied Housing Units: $1,500 to $1,999
+      A10027_014:     Occupied Housing Units: $2,000 to $2,499
+      A10027_015:     Occupied Housing Units: $2,500 to $2,999
+      A10027_016:     Occupied Housing Units: $3,000 or More
+      A10027_017:     Occupied Housing Units: No Cash Rent
+      A10030_001:     Occupied Housing Units
+      A10030_002:     Occupied Housing Units: No Vehicle Available
+      A10030_003:     Occupied Housing Units: 1 Vehicle Available
+      A10030_004:     Occupied Housing Units: 2 Vehicles Available
+      A10030_005:     Occupied Housing Units: 3 Vehicles Available
+      A10030_006:     Occupied Housing Units: 4 Vehicles Available
+      A10030_007:     Occupied Housing Units: 5 or More Vehicles Available
+      A10048_001:     Occupied Housing Units
+      A10048_002:     Occupied Housing Units: Complete Plumbing Facilities
+      A10048_003:     Occupied Housing Units: Complete Kitchen Facilities
+      A10029_001:     Occupied Housing Units
+      A10029_002:     Occupied Housing Units: with Telephone Service Available
+      A10029_003:     Occupied Housing Units: with Telephone Service Available: Householder 15 to 34 Years
+      A10029_004:     Occupied Housing Units: with Telephone Service Available: Householder 35 to 64 Years
+      A10029_005:     Occupied Housing Units: with Telephone Service Available: Householder 65 Years and Over
+      A10029_006:     Occupied Housing Units: No Telephone Service Available
+      A10029_007:     Occupied Housing Units: No Telephone Service Available: Householder 15 to 34 Years
+      A10029_008:     Occupied Housing Units: No Telephone Service Available: Householder 35 to 64 Years
+      A10029_009:     Occupied Housing Units: No Telephone Service Available: Householder 65 Years and Over
+      B01001_001:     Total Population:
+      B01001_002:     Total Population: Under 18 Years
+      B01001_003:     Total Population: 18 to 34 Years
+      B01001_004:     Total Population: 35 to 64 Years
+      B01001_005:     Total Population: 65 and Over
+      B04001_001:     Total Population
+      B04001_002:     Total Population: Not Hispanic or Latino
+      B04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      B04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      B04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      B04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      B04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      B04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      B04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      B04001_010:     Total Population: Hispanic or Latino
+      B12001_001:     Population 25 Years and Over
+      B12001_002:     Population 25 Years and Over: Less than High School
+      B12001_003:     Population 25 Years and Over: High School Diploma
+      B12001_004:     Population 25 Years and Over: Bachelor's Degree or Better
+      A17004_001:     Total Employed Civilian Population 16 Years and Over
+      A17004_002:     Employed Civilian Population 16 Years and Over: Agriculture, Forestry, Fishing and Hunting, and Mining
+      A17004_003:     Employed Civilian Population 16 Years and Over: Construction
+      A17004_004:     Employed Civilian Population 16 Years and Over: Manufacturing
+      A17004_005:     Employed Civilian Population 16 Years and Over: Wholesale Trade
+      A17004_006:     Employed Civilian Population 16 Years and Over: Retail Trade
+      A17004_007:     Employed Civilian Population 16 Years and Over: Transportation and Warehousing, and Utilities
+      A17004_008:     Employed Civilian Population 16 Years and Over: Information
+      A17004_009:     Employed Civilian Population 16 Years and Over: Finance and Insurance, and Real Estate and Rental  and Leasing
+      A17004_010:     Employed Civilian Population 16 Years and Over: Professional, Scientific, and Management, and  Administrative and Waste Management Services
+      A17004_011:     Employed Civilian Population 16 Years and Over: Educational Services, and Health Care and Social  Assistance
+      A17004_012:     Employed Civilian Population 16 Years and Over: Arts, Entertainment, and Recreation, and  Accommodation and Food Services
+      A17004_013:     Employed Civilian Population 16 Years and Over: Other Services, Except Public Administration
+      A17004_014:     Employed Civilian Population 16 Years and Over: Public Administration
+      B14001_001:     Households:
+      B14001_002:     Households: Less than $25,000
+      B14001_003:     Households: $25,000 to $49,999
+      B14001_004:     Households: $50,000 to $74,999
+      B14001_005:     Households: $75,000 to $99,999
+      B14001_006:     Households: $100,000 or More
+      B10060_001:     Owner Occupied Housing Units
+      B10060_002:     Owner Occupied Housing Units: White Alone, Not Hispanic or Latino Homeowners 
+      B10060_003:     Owner Occupied Housing Units: Non-White Homeowners
+      B18002_001:     Renter-Occupied Housing Units
+      B18002_002:     Renter-Occupied Housing Units: 30 to 49 Percent
+      B18002_003:     Renter-Occupied Housing Units: 50 percent or More
+      B10040_001:     Owner-Occupied Housing Units
+      B10040_002:     Owner-Occupied Housing Units: Homeowners Who are Paying at Least 30% of Income for Ownership Costs
+      B10040_003:     Owner-Occupied Housing Units: Homeowners Who are Paying at Least 50% of Income for Ownership Costs
+      A10065_001:     Own Children under 18 Years
+      A10065_002:     Own Children under 18 Years: Children Living with Single Parents
+      A10066_001:     Households
+      A10066_002:     Households: 1-Person Household
+      A10066_003:     Households: 2-Person Household
+      A10066_004:     Households: 3-Person Household
+      A10066_005:     Households: 4-Person Household
+      A10066_006:     Households: 5-Person Household
+      A10066_007:     Households: 6-Person Household
+      A10066_008:     Households: 7-or-More Person Household
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2023
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13362589
+
+If you have any questions contact info@socialexplorer.com

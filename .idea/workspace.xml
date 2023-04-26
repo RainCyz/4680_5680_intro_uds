@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,6 +77,8 @@
       <workItem from="1681683063379" duration="23000" />
       <workItem from="1681757282186" duration="5147000" />
       <workItem from="1682106979229" duration="3962000" />
+      <workItem from="1682187292621" duration="230000" />
+      <workItem from="1682452160955" duration="3397000" />
     </task>
     <servers />
   </component>
